@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Payment Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4a2c8a;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #6c4cb2;
+            border-radius: 10px;
+        }
+
+        .info {
+            padding: 15px 0;
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        .payment-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .payment-form input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkout-button {
+            width: 100%;
+            padding: 15px;
+            background-color: #4a2c8a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .checkout-button:hover {
+            background-color: #6c4cb2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <p><strong>Location</strong><br>Blue Cinema</p>
+            <p><strong>Date</strong><br>Today, 10/07/18</p>
+        </div>
+        <div class="payment-form">
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Credit Card" required>
+            <input type="text" placeholder="Expiration date" required>
+            <button class="checkout-button">CHECKOUT</button>
+        </div>
+    </div>
+</body>
+</html>
