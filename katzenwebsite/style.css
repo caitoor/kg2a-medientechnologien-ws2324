@@ -1,10 +1,47 @@
 * {
     font-family: "Trebuchet MS", serif;
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: cornflowerblue;
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    background-color: #ff0000;
+}
+
+nav {
+    background-color: rgb(255, 192, 203);
+    display: inline-block;
+    width: 300px;
+}
+main {
+    background-color: rgba(255, 255, 0, 0.5);
+    display: inline-block;
+    width: 550px;
+    padding: 50px;
+    border: 5px solid red;
+}
+
+img {
+    max-width: 100%;
+}
+footer {
+    background-color: blueviolet;
+    margin: 100px;
+}
+
 h1 {
     font-family: "Lucida Handwriting", serif;
 }
+
 h1 {
     font-family: "Comic Sans MS", serif;
 }
-

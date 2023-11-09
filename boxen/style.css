@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: cornflowerblue;
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 600px;
+    grid-template-rows: 100px 50px 300px 100px 75px;
+    grid-template-areas:
+        "kopf kopf"
+        "menu menu"
+        "sidebar inhalt"
+        "sidebar orng"
+        "fuss fuss";
+    gap: 5px;
+}
+
+header {
+    background-color: #ff0000;
+    grid-area: kopf;
+}
+
+nav {
+    background-color: blue;
+    grid-area: menu;
+}
+
+aside {
+    background-color: green;
+    grid-area: sidebar;
+}
+
+main {
+    background-color: yellow;
+    grid-area: inhalt;
+}
+
+#orange {
+    background-color: orange;
+    grid-area: orng;
+}
+
+footer {
+    background-color: pink;
+    grid-area: fuss;
+}
