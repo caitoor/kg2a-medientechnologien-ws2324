@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    /* DESKTOP STYLES*/
+    body {
+        background-color: black;
+    }
+
+    #wrapper {
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 2fr 5fr 1fr;
+     
+        width: 900px;
+        grid-template-areas:
+            "hdr hdr"
+            "content sidebar"
+            "ftr ftr";
+    }
+}
