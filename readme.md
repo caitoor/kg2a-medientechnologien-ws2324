@@ -15,6 +15,6 @@ Die Website umfasst folgende Features:
 
 # Abgabe
 
-- Am 6. 12. 2023: Einzelbesprechungen
-- Abgabe bis 13. 12. 2023 23:59 Uhr
+- Abgabe bis 10. 01. 2024 23:59 Uhr
 - In einem Unterordner ("nachname_vorname_abgabe_website") im Ordner "abgabe_website" in unserem Google Drive Verzeichnis
+- Screenshots jeder Unterseite (falls bei mir etwas nicht richtig angezeigt wird)
